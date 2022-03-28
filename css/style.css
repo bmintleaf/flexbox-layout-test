@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    height: 500px;
+    border: 4px red solid;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex-container div {
+    border: 4px red solid;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+}
+
+
+body {
+    background-color: #1f6c7d;
+}
