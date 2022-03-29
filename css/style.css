@@ -1,10 +1,9 @@
 .flex-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 16px;
-    height: 500px;
+    height: 250px;
     border: 4px red solid;
-    align-items: center;
     gap: 10px;
 }
 
@@ -13,8 +12,8 @@
 }
 
 .box {
-    height: 300px;
-    width: 300px;
+    height: 150px;
+    width: 150px;
 }
 
 
