@@ -1,10 +1,10 @@
 .flex-container {
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
     padding: 16px;
     height: 250px;
     border: 4px red solid;
-    gap: 10px;
+    justify-content: space-between;
 }
 
 .flex-container div {
@@ -19,4 +19,20 @@
 
 body {
     background-color: #1f6c7d;
+    margin: auto;
+}
+
+main div {
+    border: 4px red solid;
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 40px;
+    padding: 1em;
+}
+
+main p {
+    border: 4px red solid;
+    padding: 50px;
+    text-align: center;
+    margin: 100px;
 }
